@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is a travel journal for my trip to Georgia.">
+    <title>Georgia Travel Journal</title> 
+</head>
+<body>
+     <header>
+        <h1>Georgia Travel Journal</h1>  
+        <p>A collection of places I visited and memories I made during my trip to Georgia</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="pages/about.html">About My Trip</a>
+        <a href="#activities">Memorable Activities</a>
+        <a href="#food">Food I Tried</a>
+        <a href="https://www.exploregeorgia.org/">Explore Georgia</a>
+    </nav>
+
+    <main>
+        <section>
+            <h2>About My Trip</h2>
+            <p>This journal captures some of my favorite memories in Atlanta and the trips I shared with my family.</p>
+            <p>
+                Atlanta is a beautiful place with so many places to explore. 
+                I especially loved being close to nature and enjoying the beautiful weather during my time there. 
+                Some of my favorite memories came from spending <strong>quality time with my family</strong> 
+                and trying <em>different outdoor activities together.</em>
+            </p>
+        </section>
+
+        <section>
+            <h2>Places I Visited</h2>
+
+            <article>
+                <h3>Georgia Aquarium</h3>
+                <img
+                    src="images/Aquarium.png"
+                    alt="Colorful sea anemones at the Georgia Aquarium"
+                    width="450"
+                    height="600"
+                >
+                <p>
+                    Georgia Aquarium was one of the most impressive places I visited in Atlanta.
+                    It was huge, with many different marine animals and exhibits to explore.
+                    I really enjoyed walking through the aquarium and seeing the animals up close.
+                </p>
+            </article>
+
+            <article>
+                <h3>Sautee Nacoochee</h3>
+                <img
+                    src="images/Sautee.png"
+                    alt="Waterfall and forest scenery during my trip to Sautee Nacoochee"
+                    width="450"
+                    height="600"
+                >
+                <p>
+                    Sautee Nacoochee was a peaceful place surrounded by beautiful scenery and nature.
+                    I enjoyed the quiet atmosphere and the views of the mountains and countryside.
+                    It felt very different from spending time in the city.
+                </p>
+            </article>
+
+            <article>
+                <h3>Unicoi State Park</h3>
+                <img
+                    src="images/Unicoi.png"
+                    alt="Camping tents surrounded by forest at Unicoi State Park"
+                    width="700"
+                    height="250"
+                >
+                <p>
+                    Unicoi State Park was one of my favorite places because I could spend more time outdoors
+                    and close to nature. My family and I camped there, which gave us time to relax,
+                    enjoy the scenery, and spend time together.
+                </p>
+            </article>
+        </section>
+
+        <section id="activities">
+            <h2>Memorable Activities</h2>
+            <p>There are some outdoor activities I enjoyed while spending time with my family.</p>
+            <ul>
+                <li>Camping at Unicoi State Park</li>
+                <li>Fishing from a rental boat</li>
+                <li>River tubing</li>
+            </ul>
+        </section>
+
+        <aside id="food">
+            <h2>Food I Tried</h2>
+            <p>Atlanta has many different foods to try, and I had the chance to experience some of them during my trip.</p>
+            <ol>
+                <li>Fried chicken</li>
+                <li>Peach cobbler</li>
+                <li>Barbecue ribs</li>
+                <li>Chicken and waffles</li>
+            </ol>
+        </aside>
+
+        <section>
+            <h2>Trip Highlights</h2>
+
+            <table>
+                <caption>Highlights from My Georgia Trip</caption>
+
+                <thead>
+                    <tr>
+                        <th>Place</th>
+                        <th>Location Type</th>
+                        <th>Favorite Experience</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Georgia Aquarium</td>
+                        <td>Aquarium</td>
+                        <td>Seeing marine animals</td>
+                    </tr>
+
+                    <tr>
+                        <td>Sautee Nacoochee</td>
+                        <td>Nature Area</td>
+                        <td>Exploring the scenery</td>
+                    </tr>
+
+                    <tr>
+                        <td>Unicoi State Park</td>
+                        <td>State Park</td>
+                        <td>Camping</td>
+                    </tr>
+
+                    <tr>
+                        <td>North Georgia</td>
+                        <td>Outdoor Area</td>
+                        <td>River tubing</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Travel Experience Form -->
+        <section>
+            <h2>Share Your Travel Experience</h2>
+
+            <form>
+                <p>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name">
+                </p>
+
+                <p>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email">
+                </p>
+
+                <p>
+                    <label for="topic">Topic</label>
+                    <select id="topic" name="topic">
+                        <option value="">Choose a topic</option>
+                        <option value="places">Places to Visit</option>
+                        <option value="activities">Outdoor Activities</option>
+                        <option value="food">Food</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" cols="40"></textarea>
+                </p>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Georgia Travel Journal</p>
+    </footer>
+</body>
+</html>
